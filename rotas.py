@@ -95,7 +95,7 @@ def rota_pesquisar_usuario_pelo_nome(nome: str):
     return nome_encontrado
 
 # Rota que apresenta os emails cadastrados
-@app.get("/usuarios/mail")
+@app.get("/email/")
 def rota_email_cadastrados():
     print("Consulta email")
     lista = persistencia_pesquisar_emails()
