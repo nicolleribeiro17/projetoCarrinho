@@ -57,7 +57,6 @@ def rota_pesquisar_produtos_pelo_codigo(codigo: int):
 @app.get("/total")
 def rota_soma_total_produtos():
     return persistencia_soma_total()
-    #return {"Soma_total": sum(preco)}
 
 # Rota que deleta o produto pelo código
 @app.delete("/carrinho/{codigo}")
