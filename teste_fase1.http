@@ -87,7 +87,7 @@ GET http://localhost:8000/carrinho/3
 
 ### 
 #Soma total dos produtos 
-GET http://localhost:8000/carrinho/total
+GET http://localhost:8000/total
 
 ### 
 # Requisição para deletar produtos a partir do codigo
