@@ -38,7 +38,7 @@ GET http://localhost:8000/usuarios/nome/Nicolle
 
 ### 
 # Requisição para apresentar os emails cadastrados - Não roda
-GET http://localhost:8000/usuarios/mail
+GET http://localhost:8000/email
 
 ### 
 # Requisição para deletar usuário a partir do codigo identificador
