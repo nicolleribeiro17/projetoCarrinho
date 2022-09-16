@@ -32,11 +32,12 @@ def persistencia_pesquisar_pelo_nome_usuario(nome):
             break
     return nome_procurado
 
-def persistencia_pesquisar_emails(email):
+def persistencia_pesquisar_emails():
+    encontrado = None
     lista_email = []
-    for i in MEMORIA_USUARIO:
-        if i["email"] == email:
-            lista_email.append(i)
+    for i, usuario in enumerate(MEMORIA_USUARIO):
+        if usuario["email"]:
+            lista_email.append(usuario['email'])
     return lista_email
 
 def persistencia_deletar_usuario_pelo_codigo(id):
