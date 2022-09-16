@@ -1,0 +1,140 @@
+# API carrinho
+
+# Requisição para ver se a aplicação está rodando
+GET http://localhost:8000/
+
+###
+# =============================
+# Cadastro de usuário
+# =============================
+POST http://localhost:8000/usuarios/
+
+{
+    "nome": "Nicolle",
+    "email": "nicolle.rib.p@gmail.com",
+    "senha": "senha123"
+}
+
+###
+POST http://localhost:8000/usuarios/
+
+{
+    "nome": "Luiza",
+    "email": "luiza@gmail.com",
+    "senha": "lulumagalu"
+}
+
+###
+# Requisição para consultar os usuarios cadastrados
+GET http://localhost:8000/usuarios
+
+### 
+# Requisição para encontrar o usuario a partir do código identificador (id)
+GET http://localhost:8000/usuarios/3
+
+### 
+# Requisição para encontrar os usuarios a partir do primeiro nome
+GET http://localhost:8000/usuarios/nome/Nicolle
+
+### 
+# Requisição para apresentar os emails cadastrados - Não roda
+GET http://localhost:8000/usuarios/mail
+
+### 
+# Requisição para deletar usuário a partir do codigo identificador
+DELETE http://localhost:8000/usuarios/1
+
+
+
+###
+# =============================
+# Cadastro de produto
+# =============================
+
+POST http://localhost:8000/carrinho
+
+{
+    "nome": "Iphone 12",
+    "descricao": "Smartphone Apple",
+    "preco": 5200.00
+}
+
+###  
+POST http://localhost:8000/carrinho
+
+{
+    "nome": "Figurinhas Copa",
+    "descricao": "Figurinhas colecionáveis album copa 2022",
+    "preco": 5.00
+}
+
+### 
+POST http://localhost:8000/carrinho
+
+{
+    "nome": "Notebook",
+    "descricao": "Notebook Dell ",
+    "preco": 4500.99
+}
+
+###
+# Comando para consultar os produtos cadastrados
+GET http://localhost:8000/carrinho
+
+### 
+# Requisição para encontrar o produto a partir do código
+GET http://localhost:8000/carrinho/3
+
+### 
+#Soma total dos produtos 
+GET http://localhost:8000/carrinho/total
+
+### 
+# Requisição para deletar produtos a partir do codigo
+DELETE http://localhost:8000/carrinho/2
+
+
+###
+# =============================
+# Cadastro de endereço
+# =============================
+POST http://localhost:8000/enderecos/
+
+{
+    "rua": "Dr Nasicmento",
+    "cep": "96200300",
+    "cidade": "Rio Grande",
+    "estado": "Rio Grande do Sul"
+}
+
+###
+POST http://localhost:8000/enderecos/
+
+{
+    "rua": "Benjamin",
+    "cep": "96200020",
+    "cidade": "Rio Grande",
+    "estado": "Rio Grande do Sul"
+}
+### 
+# =============================
+POST http://localhost:8000/enderecos/
+
+{
+    "rua": "Mario Ribeiro",
+    "cep": "96200040",
+    "cidade": "Rio Grande",
+    "estado": "Rio Grande do Sul"
+}
+
+###
+# Requisição para consultar os endereços cadastrados
+GET http://localhost:8000/enderecos/
+
+###
+# Requisição para encontrar o endereço a partir do código
+GET http://localhost:8000/enderecos/3
+
+### 
+# Requisição para deletar produtos a partir do codigo
+DELETE http://localhost:8000/enderecos/2
