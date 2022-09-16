@@ -1,7 +1,6 @@
 from pydantic import BaseModel
 
 MEMORIA_CARRINHO = []
-
 # =================================
 # Persistencia para produto
 # =================================
@@ -23,12 +22,12 @@ def persistencia_pesquisar_pelo_codigo_produto(codigo):
             break
     return produto_procurado
 
-def persistencia_soma_total(preco):
+def persistencia_soma_total():
     soma_total = 0
-    for preco in MEMORIA_CARRINHO:
-            if preco['preco'] == preco:
-                soma_total = sum(preco)
-    return soma_total
+    for item in MEMORIA_CARRINHO:
+            if item['preco']:
+                soma_total = soma_total + item['preco']
+    return ("Soma total do carrinho:", soma_total)
 
 def persistencia_deletar_produto_pelo_codigo(codigo):
     produto_deletar = None
