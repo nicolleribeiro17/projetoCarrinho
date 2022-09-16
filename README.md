@@ -6,10 +6,10 @@ Desenvolvimento de um carrinho de compras como projeto do bootcamp LuizaCode uti
 Tabela de conteúdos
 =================
 <!--ts-->
-   * ## [Sobre](#Sobre)
+   * ## Sobre
       * Primeira etapa do projeto - consiste na criação das persistência, das classes e das rotas necessárias para ao desenvolvimento do projeto e para a comunicação da API Rest.  A elaboração dessa primeira fase não possui regras e nem aplicações de bancos de dados, portanto o projeto será aprimorado ao longo do bootcamp. 
 
-   * ## [Como utilizar](#Como-utilizar)
+   * ## Como utilizar
 
 ### Configurações iniciais
     
