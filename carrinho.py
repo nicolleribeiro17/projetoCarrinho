@@ -39,6 +39,7 @@ def persistencia_deletar_produto_pelo_codigo(codigo):
     return produto_deletar
 
 
+
 # Classe representando os dados do produto
 class Produto(BaseModel):
     nome: str
