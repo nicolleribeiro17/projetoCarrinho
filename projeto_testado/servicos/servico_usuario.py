@@ -1,7 +1,6 @@
 from servidor.uteis import db_usuarios
 from modelo.usuario import Usuario
 
-
 # =====================================
 # Persistencia para usuário
 # =====================================
