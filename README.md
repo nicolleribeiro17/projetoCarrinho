@@ -28,12 +28,15 @@ Para a visualização das requisições web diretamente no VSCode, indico instal
     # Ative a máquina virtual
     $ .\ambientevirtual\Scripts\activate
     
+    # Acesse o repositório projeto_testado onde estará o código revisado
+    $ cd projeto_testado
+    
     # Execute o comando
     $ uvicorn rotas:app --reload
     
     # O servidor iniciára na porta 8000 - acesse <http://localhost:8000/>
     
-    # Para ver o funcionamento do código, acessar o arquivo testes_fase1.http e testar as requisições.
+    # Para ver o funcionamento do código, acessar o arquivo casos_teste.http. Neste arquivo irá conter os dados de entrada que irão ser utilizados para teste e para testar as requisições feitas nas rotas foi acessado o caminho .<http://localhost:8000/docs>
     
 <!--te-->
 
