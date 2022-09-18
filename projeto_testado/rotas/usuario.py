@@ -27,3 +27,4 @@ def retorno_usuario_com_nome(nome):
 def rota_deletar_usuario_pelo_id(id):
     return deletar_usuario(id)
     
+
