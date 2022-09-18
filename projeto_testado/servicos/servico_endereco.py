@@ -46,3 +46,4 @@ def remover_endereco_usuario(id_usuario):
             break
     #return end_deletar  
     return db_end_usuarios
+
