@@ -21,3 +21,4 @@ def retorno_carrinho_pelo_nome(nome: str):
 @router.delete("/{nome}")
 def remover_carrinho_pelo_nome(nome):
     return deletar_carrinho(nome)
+
