@@ -36,7 +36,9 @@ Para a visualização das requisições web diretamente no VSCode, indico instal
     
     # O servidor iniciára na porta 8000 - acesse <http://localhost:8000/>
     
-    # Para ver o funcionamento do código, acessar o arquivo casos_teste.http. Neste arquivo irá conter os dados de entrada que irão ser utilizados para teste e para testar as requisições feitas nas rotas foi acessado o caminho .<http://localhost:8000/docs>
+    # Para ver o funcionamento do código, acessar o arquivo casos_teste.http. 
+    # Neste arquivo irá conter os dados de entrada que irão ser utilizados para teste.
+    # Para testar as requisições feitas nas rotas foi acessado o caminho .<http://localhost:8000/docs>
     
 <!--te-->
 
