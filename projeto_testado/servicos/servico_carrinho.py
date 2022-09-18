@@ -47,3 +47,4 @@ def deletar_carrinho(nome):
             db_carrinhos.pop(i)
             break
     return db_carrinhos
+
