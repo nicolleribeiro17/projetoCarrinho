@@ -51,3 +51,4 @@ def remover_produto_cod(sku):
             db_produtos.pop(i)
     
     return db_produtos
+
