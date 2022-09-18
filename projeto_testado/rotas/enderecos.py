@@ -27,3 +27,5 @@ def pesquisar_todos_enderecos_usuario():
     end = lista_enderecos_usuario()
     return end
 
+
+
