@@ -1,0 +1,194 @@
+# API carrinho
+
+# Aqui foram declarados os dicionários para facilitar a testagem do projeto. 
+#Para testar a aplicação foi utilizado o caminho <http://localhost:8000/docs> para testar as funções que foram desenvolidas.
+
+
+
+# Requisição para ver se a aplicação está rodando
+GET http://localhost:8000/
+
+# ======================
+# Cadastro de usuários
+# ======================
+###
+POST http://localhost:8000/usuario/
+
+{
+    "nome": "Nicolle Ribeiro",
+    "email": "nicolle.rib.p@gmail.com",
+    "senha": "senha123"
+}
+
+###
+POST http://localhost:8000/usuario/
+
+{
+    "nome": "Luiza Magalu",
+    "email": "luiza@gmail.com",
+    "senha": "lulumagalu"
+}
+
+### 
+POST http://localhost:8000/usuario/
+
+{
+    "nome": "Rafael Coelho",
+    "email": "rafaelp@gmail.com",
+    "senha": "senha123"
+}
+
+###
+POST http://localhost:8000/usuario/
+
+{
+    "nome": "Renata Pinheiro",
+    "email": "renata@gmail.com",
+    "senha": "senha993"
+}
+
+
+###
+# =========================
+# Cadastro de endereços
+# =========================
+
+POST http://localhost:8000/endereco/
+
+{
+    "rua": "Dr Nasicmento",
+    "cep": "96200300",
+    "cidade": "Rio Grande",
+    "estado": "Rio Grande do Sul"
+}
+
+###
+POST http://localhost:8000/endereco/
+
+{
+    "rua": "Benjamin",
+    "cep": "96200020",
+    "cidade": "Rio Grande",
+    "estado": "Rio Grande do Sul"
+}
+### 
+# =============================
+POST http://localhost:8000/endereco/
+
+{
+    "rua": "Mario Ribeiro",
+    "cep": "96200040",
+    "cidade": "Rio Grande",
+    "estado": "Rio Grande do Sul"
+}
+
+###
+# =============================
+# Cadastro do carrinho
+# =============================
+POST http://localhost:8000/carrinho
+
+{
+    "nome": "Cesta de compras"
+}
+
+###
+
+POST http://localhost:8000/carrinho
+
+{
+    "nome": "Cabelo"
+}
+
+### 
+POST http://localhost:8000/carrinho
+
+{
+    "nome": "wishlist"
+}
+
+### 
+# =============================
+# Cadastro de produto
+# =============================
+POST http://localhost:8000/produto
+
+{
+    "nome": "Iphone 12",
+    "descricao": "Smartphone Apple",
+    "preco": 5200.00,
+    "sku": "929",
+    "quantidade": 5
+}
+
+###  
+POST http://localhost:8000/produto
+
+{
+    "nome": "Figurinhas Copa",
+    "descricao": "Figurinhas colecionáveis album copa 2022",
+    "preco": 5.00,
+    "sku": "924",
+    "quantidade": 5
+
+}
+
+### 
+POST http://localhost:8000/produto
+
+{
+    "nome": "Notebook",
+    "descricao": "Notebook Dell ",
+    "preco": 4500.99,
+    "sku": "994",
+    "quantidade": 8
+
+}
+
+### 
+POST http://localhost:8000/produto
+
+{
+    "nome": "Secador de Cabelo",
+    "descricao": "Turbo SC-38 Preto e Rosa ",
+    "preco": 137.99,
+    "sku": "544",
+    "quantidade": 2
+
+}
+
+### 
+POST http://localhost:8000/produto
+
+{
+    "nome": "Mascara Wella",
+    "descricao": "Invigo Nutri Enrich ",
+    "preco": 135.99,
+    "sku": "344",
+    "quantidade": 2
+
+}
+
+### 
+POST http://localhost:8000/produto
+
+{
+    "nome": "Armario Cozinha",
+    "descricao": "7 Portas e 2 Gavetas",
+    "preco": 519.99,
+    "sku": "670",
+    "quantidade": 1
+
+}
+
+### 
+POST http://localhost:8000/produto
+
+{
+    "nome": "Smart TV",
+    "descricao": "Samsung",
+    "preco": 14500.99,
+    "sku": "758",
+    "quantidade": 1
+
+}
