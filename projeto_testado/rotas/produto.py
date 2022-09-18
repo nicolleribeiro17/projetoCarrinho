@@ -18,7 +18,6 @@ def retorno_todos_produtos():
 def remover_produto_sku(sku):
     return remover_produto_cod(sku) 
 
-
 @router.get("/total")
 def soma_produtos():
     return preco_total()
@@ -31,3 +30,4 @@ def adicionar_produtos_carrinho(carrinho: CarrinhoDeCompras):
 def consultar_produtos_carrinho():
     lista = lista_carrinho_produto()
     return lista
+
