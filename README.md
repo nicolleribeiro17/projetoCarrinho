@@ -32,7 +32,7 @@ Para a visualização das requisições web diretamente no VSCode, indico instal
     $ cd projeto_testado
     
     # Execute o comando
-    $ uvicorn rotas:app --reload
+    $ uvicorn main:app --reload
     
     # O servidor iniciára na porta 8000 - acesse <http://localhost:8000/>
     
