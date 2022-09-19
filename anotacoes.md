@@ -12,29 +12,31 @@
 
 ✔️ Consultar os usuários cadastrados.
 
-✔️ Consultar os emails cadastrados pelos usuários.
+✔️ Cadastrar endereços
 
-✔️ Cadastrar os endereços do usuário.
+✔️ Consultar os endereços
+
+✔️ Associar ao usuário os endereços cadastrados.
 
 ✔️ Consultar os endereços do usuário.
 
-✔️ Consultar um endereço pelo seu código identificador.
-
 ✔️ Remover um endereço do usuário pelo seu código identificador.
+
+✔️ Criar um carrinho de compras
+
+✔️ Remover o carrinho de compras.
 
 ✔️ Cadastrar um produto, que possua nome, descrição, preço, e código identificador.
 
-✔️ Remover um produto pelo código.
+✔️ Consultar os produtos
 
-✔️ Criar um carrinho de compras associado a um usuário.
+✔️ Remover um produto pelo código sku.
+
+✔️ Calcular o valor total dos produtos
 
 ✔️ Adicionar produtos ao carrinho de compras.
 
-✔️ Remover produtos ao carrinho de compras.
-
-✔️ Calcular o valor total do carrinho.
-
-✔️ Remover o carrinho de compras.
+✔️ Consultar o carrinho de compras.
 
 ✔️ Ter na página raiz uma saudação de boas vindas.
 
